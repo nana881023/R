@@ -79,19 +79,18 @@ fruits[-c(1:2)]
 ### 更動元素
 
 ```{r}
-fruits <- c("banana", "apple", "orange")
 
-# 更改指定元素位置
-fruits[1] 
-fruits[1] <- "bala"
+
 fruits
-
 # 新增元素 - 至最後位置
 fruits <- append(fruits, "cherry")
 fruits
 
 # 新增元素 - 至指定索引位置
-fruits <- append(values = fruits, after = 2, x = "melon")
+fruits <- append(values ="melon" , after = 2, x = fruits)
+#x：要修改的東西
+#value：要貼進去的東西
+#after：貼在index 2之後
 fruits
 
 ## 合併兩個 vector
@@ -106,7 +105,9 @@ c(v1, v2)
 ### seq函數
 ```{r}
 
-numbers <- seq(from = 0, to = 100, by = 20)
+numbers <- seq(from = 0, to = 100, by = 20) 
+#for(int i=0;i<=100;i+20)
+#for i in range(0,101,20)
 numbers
 
 ```
