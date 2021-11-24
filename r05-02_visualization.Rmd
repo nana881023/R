@@ -96,7 +96,7 @@ library(tidyverse) # 讀範例資料用
 ```{r}
 # 基本設定
 where <- list(lng=121.4501143, lat=25.1764033)
-where_popup <- 商管大樓
+where_popup <- "商管大樓"
 
 # 繪圖
 map <- leaflet() %>%

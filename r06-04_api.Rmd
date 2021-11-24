@@ -218,7 +218,7 @@ head(df %>% select(title, url))
 ```{r}
 
 # 0 API網址與取得之token
-token <- ""
+token <- "CWB-E192F93D-7E9F-4BC2-8D8B-61533070DA8D"
 url <- paste0("https://opendata.cwb.gov.tw/api/v1/rest/datastore/O-A0003-001?Authorization=", token, "&elementName=TEMP")
 
 # 1 爬取
